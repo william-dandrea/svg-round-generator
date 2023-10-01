@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 const SvgGenerator = () => {
   const [R1, setR1] = useState(800);
   const [R2, setR2] = useState(600);
-  const [D1, setD1] = useState(4);
+  const [D1, setD1] = useState(24);
   const [O1, setO1] = useState(18);
   const [O2, setO2] = useState(-18);
   const [SVG, setSVG] = useState(null);
