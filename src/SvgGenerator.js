@@ -5,13 +5,14 @@ const SvgGenerator = () => {
   const [R1, setR1] = useState(800);
   const [R2, setR2] = useState(600);
   const [D1, setD1] = useState(24);
-  const [O1, setO1] = useState(18);
-  const [O2, setO2] = useState(-18);
+  const [O1, setO1] = useState(17);
+  const [O2, setO2] = useState(-17);
   const [SVG, setSVG] = useState(null);
   
 
   const CENTER_X = R1 / 2;
   const CENTER_Y = R1 / 2;
+
   
   const generateSVG = () => {
     // Supprimer l'ancien SVG s'il existe
